@@ -4,11 +4,10 @@ to change default web cursor
 
 #### demo: https://naganohara.studio 
 
+FireworkEffect.vue: to generate canvas and particle effects
 
-#### FireworkEffect.vue: to generate canvas and particle effects
+cursorStyle.css: to change default cursor style
 
-#### cursorStyle.css: to change default cursor style
+useCursorStyle.js: to use cursor style
 
-#### useCursorStyle.js: to use cursor style
-
-#### Test.vue: demo
+Test.vue: demo
