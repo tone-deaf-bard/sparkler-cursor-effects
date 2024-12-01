@@ -1,0 +1,37 @@
+/* 隐藏默认样式 */
+body {
+    cursor: none;
+}
+
+/* 自定义光标样式 */
+.custom-cursor {
+    position: fixed;
+    width: 2cm;
+    height: 2px;
+    background: linear-gradient(to right,#FFFFFF,#FFC79F, #C9716D,#2E1921,#2E1921,#2E1921,#2E1921,#2E1921,#2E1921,#2E1921,#2E1921,#2E1921,#2E1921);
+    
+    transform-origin: 0% 0%;
+
+    /* 将直线的左上角对准光标点击位置 */
+    transform: rotate(60deg);
+
+    pointer-events: none;
+    /* 光标不干扰交互 */
+    z-index: 1000;
+}
+
+/* 隐藏按钮悬浮时的默认手形样式 */
+span,
+button,
+a,
+[role="button"],
+img{
+    cursor: none !important ; 
+}
+
+div,
+input,
+textarea,
+[contenteditable="true"] {
+  caret-color: transparent; /* 隐藏光标 */
+}
