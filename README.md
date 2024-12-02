@@ -10,4 +10,4 @@ cursorStyle.css: to change default cursor style
 
 useCursorStyle.js: to use cursor style
 
-Test.vue: demo
+Demo.vue: demo
